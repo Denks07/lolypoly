@@ -1,0 +1,143 @@
+.header {
+    background: #bbc9cd;
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.header-inner {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.logo-img {
+    height: 40px;
+    overflow: hidden;
+}
+
+.logo-center-mobile {
+    z-index: 2;
+}
+
+@media (min-width: 992px) {
+    .logo-center-mobile {
+        display: none;
+    }
+}
+
+.cart-count {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    font-size: 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 5px;
+    line-height: 1;
+}
+
+.mobile-sidebar {
+    position: fixed;
+    top: 3rem;
+    left: -100%;
+    width: 260px;
+    height: 100vh;
+    background-color: #bdccd2;
+    z-index: 50;
+    padding: 2rem 1rem;
+    transition: left 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-links .nav-link-top {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.nav-links .nav-link-top:hover {
+    color: #000;
+}
+
+.nav-links .nav-link-top::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: #3a8dd4;
+    transition: width 0.3s ease;
+}
+
+.nav-links .nav-link-top:hover::after {
+    width: 100%;
+}
+
+.nav-links .nav-link-top:active {
+    transform: scale(0.95);
+}
+
+
+.mobile-sidebar.open {
+    left: 0;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+}
+
+.sidebar-nav .nav-link {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.sidebar-nav .nav-link:hover {
+    color: #ffffffcc;
+}
+
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 45;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    border: none;
+    background: transparent;
+    padding: 6px;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    padding: 6px;
+}
+
+@media (max-width: 575.98px) {
+    .d-sm-flex {
+        display: none !important;
+    }
+}

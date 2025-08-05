@@ -1,0 +1,17 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+html,
+body {
+  background-color: #ffffff;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  color: #4095d1;
+  font-weight: 600;
+}
