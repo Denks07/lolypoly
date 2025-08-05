@@ -4,37 +4,37 @@ import "./index.css";
 const products = [
   {
     id: 1,
-    img: "/assets/products/earphoneloly1.png",
+    img: "assets/products/earphoneloly1.png",
     name: "Product Name",
     price: "Rp.100.000",
   },
   {
     id: 2,
-    img: "/assets/products/phonecase1.png",
+    img: "assets/products/phonecase1.png",
     name: "Product Name",
     price: "Rp.100.000",
   },
   {
     id: 3,
-    img: "/assets/products/phonecase2.png",
+    img: "assets/products/phonecase2.png",
     name: "Product Name",
     price: "Rp.100.000",
   },
   {
     id: 4,
-    img: "/assets/products/phonecase3.png",
+    img: "assets/products/phonecase3.png",
     name: "Product Name",
     price: "Rp.100.000",
   },
   {
     id: 5,
-    img: "/assets/products/phonecase4.png",
+    img: "assets/products/phonecase4.png",
     name: "Product Name",
     price: "Rp.100.000",
   },
   {
     id: 6,
-    img: "/assets/products/phonecase5.png",
+    img: "assets/products/phonecase5.png",
     name: "Product Name",
     price: "Rp.100.000",
   },

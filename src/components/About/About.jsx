@@ -6,7 +6,7 @@ const About = () => {
     <section className="about-section custom-about my-5 d-flex flex-column flex-md-row align-items-start">
       <div className="about-image-wrapper">
         <img
-          src="/assets/about/people.png"
+          src="assets/about/people.png"
           alt="About Lolypoly"
           className="about-image"
         />

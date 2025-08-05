@@ -54,7 +54,7 @@ const Header = () => {
             </button>
             <div className="d-none d-lg-block">
               <img
-                src="/assets/logo/logo.png"
+                src="assets/logo/logo.png"
                 alt="Lolypoly"
                 className="logo-img"
               />
@@ -63,7 +63,7 @@ const Header = () => {
 
           <div className="logo-center-mobile d-lg-none position-absolute start-50 translate-middle-x">
             <img
-              src="/assets/logo/logo.png"
+              src="assets/logo/logo.png"
               alt="Lolypoly"
               className="logo-img"
             />

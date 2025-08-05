@@ -5,7 +5,7 @@ const featuresData = [
   {
     icon: (
       <img
-        src="/assets/icons/fast-shipping.png"
+        src="assets/icons/fast-shipping.png"
         alt="Fast Shipping"
         className="feature-icon-img"
       />
@@ -17,7 +17,7 @@ const featuresData = [
   {
     icon: (
       <img
-        src="/assets/icons/support-center.png"
+        src="assets/icons/support-center.png"
         alt="Support Center"
         className="feature-icon-img"
       />
@@ -29,7 +29,7 @@ const featuresData = [
   {
     icon: (
       <img
-        src="/assets/icons/email-us.png"
+        src="assets/icons/email-us.png"
         alt="Email Us"
         className="feature-icon-img"
       />

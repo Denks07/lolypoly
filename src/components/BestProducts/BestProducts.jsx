@@ -6,17 +6,17 @@ const bestProductItems = [
   {
     title: "BEST SELLER",
     subtitle: "Experience the Difference\nDiscover the Best",
-    img: "/assets/products/bestproducts/bestone.png",
+    img: "assets/products/bestproducts/bestone.png",
   },
   {
     title: "NEW IN",
     subtitle: "Crafted for Excellence",
-    img: "/assets/products/bestproducts/besttwo.png",
+    img: "assets/products/bestproducts/besttwo.png",
   },
   {
     title: "DEALS",
     subtitle: "Unbeatable Value",
-    img: "/assets/products/bestproducts/bestthree.png",
+    img: "assets/products/bestproducts/bestthree.png",
   },
 ];
 

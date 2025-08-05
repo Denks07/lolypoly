@@ -2,24 +2,24 @@ import React, { useRef, useState, useEffect } from "react";
 import "./index.css";
 
 const categories = [
-  { name: "SoundEdge", img: "/assets/products/earphone.png" },
-  { name: "Powerbank", img: "/assets/products/powerbank.png" },
-  { name: "Tampered Glass", img: "/assets/products/tamperedglass.png" },
-  { name: "Audio", img: "/assets/products/earphoneloly.png" },
-  { name: "Phone Case", img: "/assets/products/phonecase.png" },
+  { name: "SoundEdge", img: "assets/products/earphone.png" },
+  { name: "Powerbank", img: "assets/products/powerbank.png" },
+  { name: "Tampered Glass", img: "assets/products/tamperedglass.png" },
+  { name: "Audio", img: "assets/products/earphoneloly.png" },
+  { name: "Phone Case", img: "assets/products/phonecase.png" },
   {
     name: "Magnetic Wireless Powerbank",
-    img: "/assets/products/powebankloly.png",
+    img: "assets/products/powebankloly.png",
   },
   // Tambahan untuk scroll panjang
-  { name: "SoundEdge", img: "/assets/products/earphone.png" },
-  { name: "Powerbank", img: "/assets/products/powerbank.png" },
-  { name: "Tampered Glass", img: "/assets/products/tamperedglass.png" },
-  { name: "Audio", img: "/assets/products/earphoneloly.png" },
-  { name: "Phone Case", img: "/assets/products/phonecase.png" },
+  { name: "SoundEdge", img: "assets/products/earphone.png" },
+  { name: "Powerbank", img: "assets/products/powerbank.png" },
+  { name: "Tampered Glass", img: "assets/products/tamperedglass.png" },
+  { name: "Audio", img: "assets/products/earphoneloly.png" },
+  { name: "Phone Case", img: "assets/products/phonecase.png" },
   {
     name: "Magnetic Wireless Powerbank",
-    img: "/assets/products/powebankloly.png",
+    img: "assets/products/powebankloly.png",
   },
 ];
 
